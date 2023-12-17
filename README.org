@@ -1,0 +1,5 @@
+* Overview
+
+This is a [[https://docs.brew.sh/Taps][Homebrew Tap]] for Armaria. This Tap is a Bottle (binary). It should work on both ~x86_64~ and ~arm64~ architectures.
+
+It can be installed with the following command: brew install ~jonathanhope/homebrew-armaria/armaria~.
