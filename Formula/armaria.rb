@@ -5,13 +5,13 @@
 class Armaria < Formula
   desc "Armaria is a fast, open, and local first bookmarks manager."
   homepage "https://github.com/JonathanHope/armaria"
-  version "0.0.20"
+  version "0.0.21"
   license "MIT"
   depends_on :macos
 
   on_macos do
-    url "https://github.com/JonathanHope/armaria/releases/download/v0.0.20/armaria_0.0.20_darwin_all.zip", using: CurlDownloadStrategy
-    sha256 "817da5865b125d6b5b0d4ee47778e0a50768d55ed885fcf9b318aa4f50f901c9"
+    url "https://github.com/JonathanHope/armaria/releases/download/v0.0.21/armaria_0.0.21_darwin_all.zip", using: CurlDownloadStrategy
+    sha256 "afce9943c101e8ef9f3099f6cda23a878b872997c1d72865337f47117b2bf072"
 
     def install
       bin.install "armaria"
